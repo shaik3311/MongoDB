@@ -12,3 +12,6 @@ use("ecomerce");
 
 // Find produts in range 
 // db.products.find({"price":{$gte:1000,$lte:3000}})
+
+// Sort products based on prices 
+// db.products.find().sort({price:1})
